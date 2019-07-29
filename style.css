@@ -1,0 +1,29 @@
+body {
+    font-family: sans-serif;
+}
+
+.flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.form-elements input, .form-elements button {
+    margin-bottom: 20px;
+    width: 300px;
+    padding: 10px;
+}
+
+.cell {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+}
+
+table td {
+    border: 1px solid black;
+    width: 20px;
+    height: 20px;
+}
