@@ -37,6 +37,11 @@ formContainer.addEventListener('submit', (ev) => {
     ev.preventDefault()
     const rowVal = inputRows.value
     const colVal = inputColumns.value
+    //Reseting text display of seleted row and col ids in the UI
+    const rowIdxEl = document.querySelector('#rowIdx')
+    const colIdxEl = document.querySelector('#colIdx')
+    rowIdxEl.innerText = ''
+    colIdxEl.innerText = ''
     render(rowVal, colVal)
 })
 
