@@ -17,13 +17,28 @@ body {
 
 .cell {
     border: 1px solid black;
-    width: 20px;
-    height: 20px;
+    width: 30px;
+    height: 30px;
     display: inline-flex;
+
 }
 
-table td {
-    border: 1px solid black;
-    width: 20px;
-    height: 20px;
+.cell:hover {
+    background-color: #97d4ff;
+}
+
+#gridContainer {
+    margin: 2rem;
+}
+
+button {
+    margin: 1rem;
+}
+
+.error {
+    color: red;
+}
+
+input {
+    margin: 1rem;
 }
